@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ignore": [
+        "dist/styles.json",
+        "src/",
+        "__tests__"
+    ]
+}

@@ -1,0 +1,8 @@
+@import "mixins";
+
+@mixin typography($font_size, $line-height) {
+    font-size: $font_size;
+    line-height: $line-height;
+    font-style: normal;
+    font-family: "Arial-Bold";
+}

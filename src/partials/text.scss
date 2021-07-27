@@ -1,0 +1,63 @@
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text {
+    font-family: map-get($map: $font-families, $key: regular);
+}
+
+.light {
+    font-weight: 300;
+    font-family: map-get($map: $font-families, $key: light);
+}
+
+.medium {
+    font-weight: 500;
+    font-family: map-get($map: $font-families, $key: medium);
+}
+
+.semibold {
+    font-weight: 600;
+    font-family: map-get($map: $font-families, $key: semibold);
+}
+
+.bold {
+    font-weight: bold;
+    font-family: map-get($map: $font-families, $key: bold);
+}
+
+.textPrimary {
+    color: map-get($map: $colors, $key: primary);
+}
+
+.textSecondary {
+    color: map-get($map: $colors, $key: secondary);
+}
+
+.textSuccess {
+    color: map-get($map: $colors, $key: success);
+}
+
+.textDanger {
+    color: map-get($map: $colors, $key: danger);
+}
+
+.textInfo {
+    color: map-get($map: $colors, $key: info);
+}
+
+.textWarning {
+    color: map-get($map: $colors, $key: warning);
+}

@@ -1,0 +1,14 @@
+# Directories
+.git/
+.idea/
+.vscode/
+node_modules/
+# Files
+.eslintrc
+.eslintrc.js
+.gitignore
+.npmignore
+.prettierrc
+.prettierrc.js
+nodemon.json
+yarn.lock
