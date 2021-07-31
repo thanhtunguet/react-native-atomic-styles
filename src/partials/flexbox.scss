@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 
-.flexCol {
+.flexColReverse {
   flex-direction: column-reverse;
 }
 
@@ -38,6 +38,14 @@
 
 .justifyContentEnd {
   justify-content: flex-end;
+}
+
+.justifyContentBetween {
+  justify-content: space-between;
+}
+
+.justifyContentAround {
+  justify-content: space-around;
 }
 
 .alignItemsCenter {
@@ -74,4 +82,24 @@
 
 .alignSelfEnd {
   align-self: flex-end;
+}
+
+.alignContentStart {
+  align-content: flex-start;
+}
+
+.alignContentStart {
+  align-content: flex-start;
+}
+
+.alignContentCenter {
+  align-content: flex-start;
+}
+
+.alignContentAround {
+  align-content: space-around;
+}
+
+.alignContentBetween {
+  align-content: space-between;
 }
