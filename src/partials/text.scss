@@ -39,25 +39,41 @@
 }
 
 .textPrimary {
+  @extend .text;
   color: map-get($map: $colors, $key: primary);
 }
 
 .textSecondary {
+  @extend .text;
   color: map-get($map: $colors, $key: secondary);
 }
 
 .textSuccess {
+  @extend .text;
   color: map-get($map: $colors, $key: success);
 }
 
 .textDanger {
+  @extend .text;
   color: map-get($map: $colors, $key: danger);
 }
 
 .textInfo {
+  @extend .text;
   color: map-get($map: $colors, $key: info);
 }
 
 .textWarning {
+  @extend .text;
   color: map-get($map: $colors, $key: warning);
+}
+
+.textDark {
+  @extend .text;
+  color: map-get($map: $colors, $key: dark);
+}
+
+.textLight {
+  @extend .text;
+  color: map-get($map: $colors, $key: light);
 }
