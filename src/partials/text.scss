@@ -77,3 +77,8 @@
   @extend .text;
   color: map-get($map: $colors, $key: light);
 }
+
+.textWhite {
+  @extend .text;
+  color: white;
+}

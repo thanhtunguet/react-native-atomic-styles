@@ -1,6 +1,6 @@
 {
   "name": "react-native-atomic-styles",
-  "version": "0.0.1-rc.3",
+  "version": "0.0.1-rc.5",
   "description": "Atomic styles for React Native",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
@@ -14,7 +14,8 @@
     "watch-css": "node-sass-chokidar ./src/styles.scss ./dist/styles.scss --watch",
     "build-css": "node-sass-chokidar ./src/styles.scss ./dist/styles.scss --build",
     "start:dev": "run-p watch-css watch",
-    "build:prod": "run-s build-css build"
+    "build:prod": "run-s build-css build",
+    "prepare": "run-s build:prod"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.14.5",
