@@ -1,6 +1,6 @@
 {
   "name": "react-native-atomic-styles",
-  "version": "0.0.1-rc.5",
+  "version": "0.0.1-rc.7",
   "description": "Atomic styles for React Native",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
