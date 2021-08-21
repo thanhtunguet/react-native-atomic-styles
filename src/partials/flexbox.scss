@@ -57,7 +57,7 @@
 }
 
 .alignItemsEnd {
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .justifyItemsCenter {
@@ -88,12 +88,12 @@
   align-content: flex-start;
 }
 
-.alignContentStart {
-  align-content: flex-start;
+.alignContentEnd {
+  align-content: flex-end;
 }
 
 .alignContentCenter {
-  align-content: flex-start;
+  align-content: center;
 }
 
 .alignContentAround {
