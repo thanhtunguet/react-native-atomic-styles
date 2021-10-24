@@ -1,0 +1,20 @@
+@import "mixins";
+@import "spacing";
+
+.button {
+    background-color: map-get($colors, primary);
+    border-radius: 5px;
+    @extend .px2;
+    @extend .py3;
+}
+
+.buttonText {
+    font-family: map-get($font-families, bold);
+    color: white;
+    text-align: center;
+    @extend .mx2;
+}
+
+.buttonIcon {
+    @extend .mx2;
+}

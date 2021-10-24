@@ -82,3 +82,11 @@
   @extend .text;
   color: #FFFFFF;
 }
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.textLowercase {
+  text-transform: lowercase;
+}

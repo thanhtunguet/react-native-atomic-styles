@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const {default: transform} = require('css-to-react-native-transform');
+const sassMapToJson = require('sass-maps-to-json');
 
 const filePath = path.resolve(__dirname, '..', 'dist/styles.scss');
 

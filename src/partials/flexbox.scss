@@ -103,3 +103,38 @@
 .alignContentBetween {
   align-content: space-between;
 }
+
+.flexRowCenter {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowBetween {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRowAround {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flexRowStart {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flexRowEnd {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexColCenter {
+  flex-direction: column;
+  justify-content: center;
+}

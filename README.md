@@ -24,3 +24,27 @@ function ExampleComponent() {
 
 export default ExampleComponent;
 ```
+
+# Atomic styles
+
+- Background color
+- Border
+- Button
+- Flexbox
+- Spacing for margin, padding
+- Text
+- Typography
+- Viewbox
+
+# Atomic colors
+
+Generate enum `Colors` from scss `colors` map
+
+```
+Usage: atomic-colors [options] <input> [output]
+
+Options:
+  -V, --version            output the version number
+  -t, --timeout <timeout>  Timeout (default: 3000)
+  -h, --help               display help for command
+```
