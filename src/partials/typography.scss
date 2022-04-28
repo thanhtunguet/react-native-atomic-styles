@@ -37,17 +37,16 @@
   font-size: $font_size;
   line-height: $line-height;
   font-style: normal;
-  font-weight: medium;
 }
 
 .sub1 {
-  @include subtitle(17px, 28px);
+  @include subtitle(16px, 28px);
 }
 
 .sub2 {
-  @include subtitle(15px, 24px);
+  @include subtitle(14px, 24px);
 }
 
 .sub3 {
-  @include subtitle(13px, 20px);
+  @include subtitle(12px, 20px);
 }

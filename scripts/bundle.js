@@ -1,13 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 const {default: transform} = require('css-to-react-native-transform');
-const sassMapToJson = require('sass-maps-to-json');
+const sass = require('sass');
 
 const filePath = path.resolve(__dirname, '..', 'dist/styles.scss');
+const srcPath = path.resolve(__dirname, '..', 'src/styles.scss');
 
-const css = fs.readFileSync(filePath, {
-  encoding: 'utf-8',
+const preBuild = sass.compile(srcPath, {
+  style: 'compressed',
 });
+
+fs.writeFileSync(filePath, preBuild.css);
+
+const css = fs.readFileSync(filePath, 'utf-8');
 
 const js = transform(css);
 
