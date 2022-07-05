@@ -38,6 +38,10 @@
   font-family: map-get($map: $font-families, $key: bold);
 }
 
+.textUnderline {
+  text-decoration-line: underline;
+}
+
 .textUppercase {
   text-transform: uppercase;
 }

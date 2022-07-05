@@ -1,5 +1,4 @@
 .idea/
 dist/
 node_modules/
-src/colors.json
-src/font-families.json
+.DS_Store
