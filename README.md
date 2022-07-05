@@ -38,7 +38,7 @@ export default ExampleComponent;
 
 # Atomic colors
 
-Generate enum `Colors` from scss `colors` map
+Sync enum `Colors` from scss `colors` map
 
 ```
 Usage: atomic-colors [options] <input> [output]
